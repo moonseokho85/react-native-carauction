@@ -28,6 +28,13 @@ const mockData = [
     image:
       'https://www.tesla.com/tesla_theme/assets/img/compare/model_s--side_profile.png?20170524',
   },
+  {
+    vin: 'abc456',
+    manufacturer: 'Tesla',
+    model: 'Model S',
+    year: 2019,
+    image: 'https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/socialcard/MS.jpg'
+  }
 ];
 class MyCarsScreen extends Component {
   constructor(props) {
